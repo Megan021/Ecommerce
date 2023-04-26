@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="CSS/owl.theme.default.min.css">
+  <script src="https://kit.fontawesome.com/9fc9387c45.js" crossorigin="anonymous"></script>
+</head>
+<style>
+
+</style>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html" class="logo"><img src="Images/logo.png" alt="Company Logo"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Videos</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      <!-- <div>
+      <a href="Signin.html" class="signin">Sign In</a>
+      <a href="Signup.html" class="signup"><button>Sign Up</button></a>
+      </div> -->
+    </nav>
+  </header>
+
+  <section class="cover">
+    <div class="form-box">
+      <div class="button-box">
+        <div id="btn"></div>
+        <button type="button" class="toggle-btn" onclick="signin()">Sign In</button>
+        <button type="button" class="toggle-btn" onclick="signup()">Sign Up</button>
+      </div>
+
+      <form id="Signin" class="input-group">
+        <input type="text" class="input-field" placeholder="User Name" required>
+        <input type="password" class="input-field" placeholder="Enter Password" required>
+        <input type="checkbox" class="check-box"><span style="color: #ffffff55;">Remember Password</span>
+        <button type="sumbit" class="submit-btn">Sign In</button>
+      </form>
+
+      <form id="Signup" class="input-group">
+        <input type="text" class="input-field" placeholder="User Name" required>
+        <input type="email" class="input-field" placeholder="Email ID" required>
+        <input type="password" class="input-field" placeholder="Enter Password" required>
+        <input type="checkbox" class="check-box"><span style="color: #ffffff55;">I agree to terms & conditions</span>
+        <button type="sumbit" class="submit-btn">Sign Up</button>
+      </form>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="col">
+      <div>
+        <img src="Images/logo.png" alt="">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere voluptatibus <br> unde labore, illum beatae placeat quidem repellat quia est praesentium. Quam <br> magnam accusantium odio praesentium doloribus aliquam, commodi natus? <br> Impedit facere nam nihil! Mollitia, sapiente.</p>
+        <div class="social">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+
+   <div class="col-2">
+    <div>
+      <h2>Address</h2>
+      <i class="fa fa-map-marker-alt"></i>
+      <span class="text">Balaju, Soyambhu</span><br>
+      <i class="fa fa-phone-alt"></i>
+      <span class="text">+977-9808528660</span><br>
+      <i class="fa fa-envelope-o"></i>
+      <span class="text">luyuan.nepal@gmail.com</span><br>
+    </div>
+   </div>
+
+    <div class="col-3">
+      <div>
+        <h2>Useful Links</h2>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+          <li>Porducts</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/JS/script.js"></script>
+
+</body>
+</html>
